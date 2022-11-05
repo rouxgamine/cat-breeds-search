@@ -1,4 +1,4 @@
-# Cat breeds search website 
+# Cat breeds website 
 
 
 ### Resourses ###
@@ -11,9 +11,8 @@ Trello: https://trello.com/b/gadqSrZq/cat-breeds-website
 
 ![image](public/Cats_Index_Page.png)
 
-<br>
-Restful Routes
-<br>
+
+### Restful Routes ###
 
 |#| Action | URL | HTTP Verb| JSX view filename| Mongoose method |
 |-|-|-|-|-|-|
@@ -30,16 +29,19 @@ CRUD, MVC, REST, INDUCES, JavaScript, JSX, React, Express, Mongoose, MongoDB
 
 <br>
 
-Wireframes
+### Wireframes ###
+<br>
 
 ![image](public/cats_index_page2.png)
 
 <br>
 
-ERD 
+### ERD ###
 <br>
 
 ![image](public/cats_Schema.png)
+
+<br>
 
 ### Next Steps ###
 
