@@ -6,9 +6,10 @@ class Show extends React.Component {
     render() {
         const { breed, image, temperament, characteristics, health, lifespan, history } = this.props.cat
         return (
-            <DefaultLayout cat={this.props.cat}>
+            <DefaultLayout title={`${breed}`} cat={this.props.cat}>
+            {/* <DefaultLayout title={`${breed} Show Page`} cat={this.props.cat}> */}
+
                 <img src={`${image}`} className="show-img" alt={`Image of ${breed}`} />
-                {/* <a href={`${learn_more}`}>Learn More</a> */}
                 <div id="show-added-data">
                     <div>
                         <label htmlFor="temperament" className='labels-show-page'>Temperament: </label>

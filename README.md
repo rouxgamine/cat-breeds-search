@@ -1,6 +1,7 @@
 # cat-breeds-search
 
 
+### Resourses ###
 
 Website: http://localhost:3008/cats
 
@@ -27,6 +28,13 @@ Technologies used: CRUD, MVC, REST, INDUCES, JSX, Express, Mongoose, MongoDB
 
 <br>
 
-ERD 
+Wireframes
 
-![image](public/cats_Schema.png)
+![image](public/Cats_Index_Page2.png)
+
+<br>
+
+### Next Steps ###
+
+1. Add Authentication for users to be able to create account and see the breeder contacts 
+2. Add Authentication and Authorization for breeders to be able to add their contacts  
