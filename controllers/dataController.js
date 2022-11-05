@@ -4,6 +4,7 @@ const Cat = require('../models/cat')
 const dataController = {
     //Index 
     index(req, res, next){
+        // Cat.find(function(err, foundCats){
         Cat.find({}, (err, foundCats) => {
             // console.log(foundCats)
             if(err){

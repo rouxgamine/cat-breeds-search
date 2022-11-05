@@ -6,29 +6,29 @@ class Show extends React.Component {
     render() {
         const { breed, image, temperament, characteristics, health, lifespan, history } = this.props.cat
         return (
-            <DefaultLayout title={`${breed} Show Page`} cat={this.props.cat}>
-                <img src={`${image}`} class="show-img" alt={`Image of ${breed}`} />
+            <DefaultLayout cat={this.props.cat}>
+                <img src={`${image}`} className="show-img" alt={`Image of ${breed}`} />
                 {/* <a href={`${learn_more}`}>Learn More</a> */}
                 <div id="show-added-data">
                     <div>
-                        <label htmlFor="temperament">Temperament: </label>
-                        {temperament}
+                        <label htmlFor="temperament" className='labels-show-page'>Temperament: </label>
+                        <p className='added-text-show-page'>{temperament}</p>
                     </div>
                     <div>
-                        <label htmlFor="characteristics">Characteristics: </label>
-                        {characteristics}
+                        <label htmlFor="characteristics" className='labels-show-page'>Characteristics: </label>
+                        <p className='added-text-show-page'>{characteristics}</p>
                     </div>
                     <div>
-                        <label htmlFor="health">Health: </label>
-                        {health}
+                        <label htmlFor="health" className='labels-show-page'>Health: </label>
+                        <p className='added-text-show-page'>{health}</p>
                     </div>
                     <div>
-                        <label htmlFor="">Lifespan:</label>
-                        {lifespan}
+                        <label htmlFor="lifespan" className='labels-show-page'>Lifespan:</label>
+                        <p className='added-text-show-page'>{lifespan}</p>
                     </div>
                     <div>
-                        <label htmlFor="history">History: </label>
-                        {history}
+                        <label htmlFor="history" className='labels-show-page'>History: </label>
+                        <p className='added-text-show-page'>{history}</p>
                     </div>
 
                     <a href=""><p>Find Breader</p></a>
