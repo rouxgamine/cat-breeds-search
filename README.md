@@ -1,4 +1,4 @@
-# cat-breeds-search
+# Cat breeds search website 
 
 
 ### Resourses ###
@@ -25,7 +25,8 @@ Restful Routes
 | 6 | Update | /cats/:id | PUT/PATCH | none | Cat.findByIdAndUpdate or Cat.findOneAndUpdate|
 | 7 | Delete | /cats/:id | DELETE  | none | Cat.findByIdAndDelete or Cat.findByIdAndRemove|
 
-Technologies used: CRUD, MVC, REST, INDUCES, JSX, Express, Mongoose, MongoDB
+### Technologies used: ###
+CRUD, MVC, REST, INDUCES, JavaScript, JSX, React, Express, Mongoose, MongoDB
 
 <br>
 
@@ -34,6 +35,11 @@ Wireframes
 ![image](public/cats_index_page2.png)
 
 <br>
+
+ERD 
+<br>
+
+![image](public/cats_Schema.png)
 
 ### Next Steps ###
 
