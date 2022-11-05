@@ -39,7 +39,7 @@ CRUD, MVC, REST, INDUCES, JavaScript, JSX, React, Express, Mongoose, MongoDB
 ### ERD ###
 <br>
 
-![image](public/cats_Schema.png)
+![image](public/ERD_cats.png)
 
 <br>
 
